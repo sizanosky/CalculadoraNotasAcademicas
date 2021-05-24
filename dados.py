@@ -2,7 +2,7 @@
 
 alunos = {
     "marcosfs": {
-        "nome": "Marcos Fabricio Sizanosky",
+        "nome": "marcos fabricio sizanosky",
         "trabalhos": [90, 95, 85, 100],
         "provas": [90, 90],
         "laboratorio": [90, 85.2]
