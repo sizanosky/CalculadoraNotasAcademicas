@@ -1,4 +1,5 @@
-from main import alunos
+import dados
+
 
 # 1 Função = obter média das notas.
 def obter_media(notas):
@@ -60,8 +61,8 @@ def media_classe():
     """
     resultado_lista = []
 
-    for aluno, detalhes in alunos.items():
-        media_aluno = calcula_media_total(alunos[aluno])
+    for aluno, detalhes in dados.alunos.items():
+        media_aluno = calcula_media_total(dados.alunos[aluno])
         resultado_lista.append(media_aluno)
 
     return obter_media(resultado_lista)
