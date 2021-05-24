@@ -30,6 +30,9 @@ if __name__ == "__main__":
 
     # Imprime a média geral da classe/turma.
     print(f"\n{50 * '#'}")
+
     print(f"Media geral classe/turma: {round(media_classe, 2)}")
-    print(f"Conceito geral classe/turma: {atribuir_letra_nota(media_classe)}")
+    print(f'Conceito geral classe/turma: '
+          f'"{atribuir_letra_nota(media_classe)}"')
+
     print(f"{50 * '#'}")
